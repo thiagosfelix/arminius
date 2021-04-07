@@ -1,3 +1,4 @@
+/* GENERAL SETTINGS */
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +15,14 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER */
+
 header {
   text-align: center;
+}
+
+header h1 {
+  color: #fec63e;
 }
 
 #img-div {
@@ -31,4 +38,15 @@ header {
 
 li {
   list-style: none;
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
+a {
+  text-decoration: none;
+  color: #fec63e;
+}
+
+a:hover {
+  color: red;
 }
